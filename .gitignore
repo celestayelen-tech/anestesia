@@ -1,0 +1,14 @@
+/target/
+checksums.txt
+checksums.txt.asc
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+*.gpg
+*.pgp
+secret_key.asc
+mi_identidad_secreta.asc
+!public_key.asc
+!Cargo.lock

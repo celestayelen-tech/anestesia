@@ -1,0 +1,24 @@
+[package]
+name = "anestesia"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Manejo del Registro de Windows
+winreg = "0.50"
+
+# Detección de versión de SO
+os_info = "3.7"
+
+# Colores en terminal
+colored = "2.0"
+# Serialización (para el detector)
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+
+# Detección de privilegios de Administrador (NUEVA)
+is_elevated = "0.1"
+
+# Command Line Argument Parser ---
+clap = { version = "4.4", features = ["derive"] } 
